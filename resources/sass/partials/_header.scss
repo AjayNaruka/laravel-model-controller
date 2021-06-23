@@ -1,0 +1,22 @@
+header{
+  /* margin-bottom: 20px; */
+  .header-container{
+    width: 100%;
+    background-color: #141414;
+    height: 70px;
+    border-bottom: 1px solid gray;
+    box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: .4);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    .left img,.right img{
+      height: 60px;
+    }
+    .right img{
+      background-color: red;
+      border-radius: 50%;
+    }
+  }
+}
